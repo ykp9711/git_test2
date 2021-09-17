@@ -1,17 +1,19 @@
-package git_test2; 
+package git_test2;
 
- 
+public class Hello {
 
-public class Hello { 
+    String message;
 
-	String message = "æ»≥Á«œººø‰";
+    public Hello() {
+        this("æ»≥Á«œººø‰");
+    }
 
-    public void say() { 
-		
-        System.out.println(message); 
+    public Hello(String message) {
+        this.message = message;
+    }
 
-    } 
+    public void say() {
+        System.out.println(message);
+    }
 
- 
-
-} 
+}
