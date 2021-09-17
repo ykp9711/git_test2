@@ -1,17 +1,10 @@
-package git_test2; 
+package git_test2;
 
- 
+public class Main {
 
-public class Main { 
-
- 
-
-    public static void main(String[] args) { 
-
-        new Hello().say(); 
-
-    } 
-
- 
+    public static void main(String[] args) {
+        Hello h = new Hello();
+        h.say();
+    }
 
 }
